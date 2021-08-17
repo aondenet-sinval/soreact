@@ -1,7 +1,7 @@
 import './App.css';
-import { Container } from 'reactstrap';
 import Item from './components/Item';
 import Card from './components/Card';
+
 /*
 const App = () => {
   return (
@@ -26,7 +26,6 @@ Para usar os itens com components filhos (chidren) descomente use abaixo
 const App = () => {
   return (
   <>
-  <Container>
 	<h1>Componentes em React</h1>
 	<ul>
 	<Item>
@@ -40,7 +39,6 @@ const App = () => {
 	</Item>
 	</ul>
 	<Card />
-	</Container>
 	</>
   );
 }
