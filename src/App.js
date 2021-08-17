@@ -2,6 +2,7 @@ import './App.css';
 import { Container } from 'reactstrap';
 import Item from './components/Item';
 import Card from './components/Card';
+import Navigation from './components/Navigation';
 /*
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
   return (
   <>
   <Container>
+   <Navigation />
 	<h1>Componentes em React</h1>
 	<ul>
 	<Item>
