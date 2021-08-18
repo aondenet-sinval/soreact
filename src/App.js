@@ -3,7 +3,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Item from './components/Item';
 import Card from './components/Card';
 import Cols from './components/Cols';
-import Carrousel from './components/Carrousel';
 import NewTable from './components/NewTable';
 import NavBar from './components/NavBar';
 
@@ -32,7 +31,6 @@ const App = () => {
   return (
   <>
   <NavBar />
-  <Carrousel />
 	<h1>Componentes em React</h1>
 	<ul>
 	<Item>
