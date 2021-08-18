@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Buttton from '../Buttton';
+import {Button} from 'reactstrap';
 
 
 const Card = () => {

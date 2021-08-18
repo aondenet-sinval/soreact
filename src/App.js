@@ -1,8 +1,12 @@
 import './App.css';
-import { Container } from 'reactstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Item from './components/Item';
 import Card from './components/Card';
-import Navigation from './components/Navigation';
+import Cols from './components/Cols';
+import Carrousel from './components/Carrousel';
+import NewTable from './components/NewTable';
+import NavBar from './components/NavBar';
+
 /*
 const App = () => {
   return (
@@ -27,8 +31,8 @@ Para usar os itens com components filhos (chidren) descomente use abaixo
 const App = () => {
   return (
   <>
-  <Container>
-   <Navigation />
+  <NavBar />
+  <Carrousel />
 	<h1>Componentes em React</h1>
 	<ul>
 	<Item>
@@ -42,7 +46,7 @@ const App = () => {
 	</Item>
 	</ul>
 	<Card />
-	</Container>
+	<NewTable />
 	</>
   );
 }
